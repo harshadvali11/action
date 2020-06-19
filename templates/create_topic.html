@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>createing_topic</title>
+</head>
+<body>
+    <center> 
+           <h1>enter the topic_name u have store</h1>
+ 
+        <form method="POST">
+            {% csrf_token %}
+            <label for="topic">type ur topic name </label>
+            <input type="text" name="topic" id="topic"><br>
+            <input type="submit" value="submit"><br>
+        </form>
+ 
+        </center>
+
+</body>
+</html>
